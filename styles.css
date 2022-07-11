@@ -1,0 +1,79 @@
+*{
+    font-family: 'Bebas Neue', cursive;
+}
+
+.container{
+    background-color: #fff;
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    min-width: 250px;
+    min-height: 250px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 40px;
+}
+
+.wrapper{
+    width: 340px;
+}
+
+.heading{
+    font-size: 28px;
+    letter-spacing: 3px;
+    padding: 5px;
+}
+
+.content{
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 2px solid #000;
+    font-size: 30px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.btn{
+    margin-top: 15px;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+    border: 3.5px solid;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.created-by{
+    position: relative;
+}
+
+.creator{
+    position: fixed;
+    top: 97%;
+    right: 10px;
+    font-size: 18px;
+}
+
+@media only screen and (max-height:600px) and (orientation:landscape) {
+    .creator{
+        position: fixed;
+        top: 95%;
+        right: 10px;
+        font-size: 12px;
+    }
+}
+
+
+
+
